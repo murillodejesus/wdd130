@@ -1,13 +1,9 @@
-@font-face {
-    font-family: 'roboto';
-    src:('/wwr/font/robotocn.ttf');
-    font-weight:normal;
-    font-style: normal;
-}
+@import url('/wwr/font/robotocn.ttf');
+@import url('/wwr/font/robotolight.ttf');
 
 :root {
     --primary-color: #E57E28;
-    --secundary-color: #EAAC63;
+    --secondary-color: #EAAC63;
     --accent1-color: #64AFB4;
     --accent2-color:#008489;
 
