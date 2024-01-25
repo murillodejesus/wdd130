@@ -4,30 +4,52 @@
     box-sizing: border-box;
 }
 
-/* Class Selectors */
+/* nav class */
+:root {
+    --nav-background-color: steelblue;
+    --nav-link-color: #ffffff;;
+    --nav-hover-link-color: steelblue;
+    --nav-hover-background-color: #ffffff;
+}
 
+nav{
+    background-color: var(--nav-background-color);
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+/* Class Selectors */
 .box{
+    width: 50rem;
     margin: 1rem;
-    border: 1px solid rgb(o,o,o,.1);
+    border: 1px solid rgba(0, 0, 0, 0.2); 
     padding: 1rem;
     background-color: white;
     color: black;
+    text-align: normal;
+    position: relative;
 }
 
 aside {
-    width:20em;
+    width:30rem;
     text-align: center;
-}
-
-nav {
-    background-color: steelblue;
-    padding: 10px;
-}
-
-nav a {
-    color:white;
-    display: block;
-    padding: 20px;
 }
 
 h1 {
@@ -36,13 +58,13 @@ h1 {
 
 aside h2 {
     /* position of the text on the box*/
-    position: absolute;
-    top: -5px;
+    position: relative;
+    top: -0px;
     left: 0px;
 }
 
 main img {
-    /* To center the image on the box */
+    /* To put a localization of image on the box */
     float: right;
 }
 img{ 
@@ -59,16 +81,6 @@ p {
 
 main {
     max-width: 840px;
-}
-
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); 
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
 }
 
 aside img{
