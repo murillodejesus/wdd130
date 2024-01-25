@@ -43,8 +43,6 @@ nav a:hover {
     padding: 1rem;
     background-color: white;
     color: black;
-    text-align: normal;
-    position: relative;
 }
 
 aside {
@@ -60,7 +58,7 @@ aside h2 {
     /* position of the text on the box*/
     position: relative;
     top: -0px;
-    left: 0px;
+
 }
 
 main img {
