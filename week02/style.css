@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .callout {
     width: 500px;
     margin: 10px;
@@ -28,4 +29,36 @@ cite {
     padding-top: 3px;
     text-align: right;
     font-size: small;
+=======
+.callout {
+    width: 500px;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 55px;
+    background-color: rgb(34, 112, 228);
+    color: #fff;
+	
+}
+
+.callout img {
+	float: right;
+    margin: 0 0 10px 15px;
+    border: 1px solid #000;
+    padding: 3px;
+    background-color:#bbb;
+    width: 150px;
+    height: auto;
+}
+
+blockquote {
+    margin: 0;
+}
+
+cite {
+	display: block;
+    border-top: 1px dotted #fff;
+    padding-top: 3px;
+    text-align: right;
+    font-size: small;
+>>>>>>> 692f494b478eda4bfdeaf532585fd839aab1b915
 }
