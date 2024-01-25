@@ -5,7 +5,7 @@
 }
 
 /* nav class */
-:root {
+:root {  
     --nav-background-color: steelblue;
     --nav-link-color: #ffffff;;
     --nav-hover-link-color: steelblue;
@@ -56,9 +56,9 @@ h1 {
 
 aside h2 {
     /* position of the text on the box*/
-    position: relative;
-    top: -0px;
-
+    position: absolute;
+    top: 450px;
+    left: 77px;
 }
 
 main img {
