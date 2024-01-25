@@ -47,7 +47,7 @@ nav a:hover {
 
 aside {
     width:30rem;
-    text-align: center;
+    text-align: relative;
 }
 
 h1 {
