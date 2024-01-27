@@ -1,0 +1,192 @@
+@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
+
+:root {
+    --primary-color: #E57E28;
+    --secondary-color: #EAAC63;
+    --accent1-color: #64AFB4;
+    --accent2-color:#008489;
+
+    --heading-font: 'roboto', serif;
+    --paragraph-font:'roboto', serif;
+
+    --nav-background-color: #EAAC63;
+    --nav-link-color: #64AFB4;;
+    --nav-hover-link-color: #008489;
+    --nav-hover-background-color: #E57E28;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    position: relative;
+}
+
+/* texts */
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+/* Navegation Bar */
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    position: relative;
+    float: right;
+    top: 75px;
+    right: 400px;
+    left: auto 0;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+/* Hero Container */
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.hero article {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    right: 50px;
+    background-color: #008489;
+    padding: 20px;
+    float: right;
+}
+
+.hero article p {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+    height: auto;
+}
+
+/* Mid Container */
+
+.mid {
+    position: relative;
+    width: 100%;
+}
+
+.mid img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mid h1 {
+    position: relative;
+    top: 0;
+    left: auto 0;
+}
+
+.mid h2 {
+    position: relative;
+    top: 0;
+    left: auto 0;
+}
+
+.mid p{
+    position: relative;
+    top: 0;
+    left: auto 0;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+    
+}
+
+.mid article {
+    position: relative;
+    top:auto 0;
+    left: auto 0;
+    background-color: #008489;
+    padding: 20px;
+}
+
+.mid article img {
+    float: center;
+    width: 600px;
+    height: auto;
+}
+
+/* Footer*/ 
+
+p {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+footer {
+    position: relative;
+    top: 0px;
+    left: auto 0;
+    max-width: 1920px;
+    background-color: #008489;
+    padding: 20px;
+}
+
+a img {
+    left: auto 0;
+    width: 100px;
+    position: relative;
+}
