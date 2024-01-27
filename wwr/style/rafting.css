@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
+@import url(https://fonts.google.com/specimen/Roboto?query=roboto;);
 
 :root {
     --primary-color: #E57E28;
@@ -10,7 +10,7 @@
     --paragraph-font:'roboto', serif;
 
     --nav-background-color: #EAAC63;
-    --nav-link-color: #64AFB4;;
+    --nav-link-color: #64AFB4;
     --nav-hover-link-color: #008489;
     --nav-hover-background-color: #E57E28;
 }
@@ -19,7 +19,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 1920px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: auto;
 }
 
 img {
@@ -54,7 +54,7 @@ nav{
     float: right;
     top: 75px;
     right: 400px;
-    left: auto 0;
+    left: auto;
 }
 
 nav a{
@@ -133,19 +133,19 @@ nav a:hover {
 .mid h1 {
     position: relative;
     top: 0;
-    left: auto 0;
+    left: auto;
 }
 
 .mid h2 {
     position: relative;
     top: 0;
-    left: auto 0;
+    left: auto;
 }
 
 .mid p{
     position: relative;
     top: 0;
-    left: auto 0;
+    left: auto;
     font-family: var(--heading-font);
     color: var(--primary-color);
 
@@ -154,14 +154,14 @@ nav a:hover {
 
 .mid article {
     position: relative;
-    top:auto 0;
-    left: auto 0;
+    top:auto;
+    left: auto;
     background-color: #008489;
     padding: 20px;
 }
 
 .mid article img {
-    float: center;
+    float: none;
     width: 600px;
     height: auto;
 }
@@ -171,7 +171,7 @@ nav a:hover {
 p {
     position: relative;
     top: 0px;
-    left: 10px;
+    left: 20px;
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -179,14 +179,14 @@ p {
 footer {
     position: relative;
     top: 0px;
-    left: auto 0;
+    left: auto;
     max-width: 1920px;
     background-color: #008489;
     padding: 20px;
 }
 
 a img {
-    left: auto 0;
+    left: auto;
     width: 100px;
     position: relative;
 }
