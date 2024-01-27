@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Roboto?query=roboto;);
+@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
 
 :root {
     --primary-color: #E57E28;
@@ -19,7 +19,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 1920px;
     margin: 0 auto;
-    padding: auto;
+    padding: 0px;
 }
 
 img {
