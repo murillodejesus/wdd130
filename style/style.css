@@ -17,7 +17,7 @@ body {
 /* grid parameters */
 
 header, .grid, footer {
-    max-width: 1200px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
