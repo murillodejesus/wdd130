@@ -5,7 +5,7 @@
 }
 
 header, footer {
-    max-width: 0 auto;
+    max-width: 0px;
     margin: 0 auto;
 }
 
@@ -105,7 +105,7 @@ aside h2 {
     /* position of the text on the box*/
     position: relative;
     left: -14px;
-    top: 0 auto;
+    top: 0px;
     padding: 10px;
     color:steelblue;
 }
@@ -119,14 +119,14 @@ main img {
 
 img{ 
     width: 200px;
-    height: 10px;
+    height: auto;
     border: 1px solid steelblue;
     padding: 5px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 9px;
+    padding: 1px;
 }
 
 .links {
