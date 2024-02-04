@@ -114,9 +114,50 @@ nav a:hover {
     height: auto;
 }
 
-/* Mid Container */
+/* History */
 
-#adventure {
+.history img { 
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.history p {
+    text-align: center;
+    top: 0px;
+    left: 20px;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+/* figure */
+
+figure{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figure img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller roboto;
+    padding: 3px;
+    text-align: center;
+}
+
+/* adventure Container */
+
+.adventure {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -164,8 +205,6 @@ nav a:hover {
     align-items: center;
 }
 
-/* Adventure */
-
 .adventure {
     display: flex;
     justify-content: space-between;
@@ -192,12 +231,11 @@ nav a:hover {
 
 /* Footer*/ 
 
-p {
-    position: relative;
+footer p {
     top: 0px;
-    left: 20px;
     font-family: var(--heading-font);
     color: var(--secondary-color);
+    float: inline-start;
 }
 
 footer {
