@@ -51,7 +51,7 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.4rem;
     display: flex;
-    justify-content: space-between 20px;
+    justify-content: space-between;
     align-items: center;
 }
     
