@@ -21,7 +21,7 @@ body {
 }
 
 img {
-    width: 200px;
+    max-width: 100%;
     height: auto;
     position: relative;
 }
@@ -40,26 +40,26 @@ h1, h2 {
 /* Navegation Bar */
 
 header {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
     padding: 20px;
     background-color: var(--accent1-color);
 }
 
 nav{
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: flex;
-    position: relative;
-    float: right;
-    top: 75px;
-    right: 400px;
-    left: auto;
+    justify-content: space-between 20px;
+    align-items: center;
 }
+    
 
-nav a{
-    display: block;
+nav a{ 
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 0 20px;
 }
 
 nav a:link, nav a:visited {
@@ -116,53 +116,79 @@ nav a:hover {
 
 /* Mid Container */
 
-.mid {
+#adventure {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     position: relative;
     width: 100%;
 }
 
-.mid img {
+.adventure img {
     display: block;
     width: 100%;
     height: auto;
     position: relative;
 }
 
-.mid h1 {
+.adventure h1 {
     position: relative;
     top: 0;
     left: auto;
 }
 
-.mid h2 {
+.adventure h2 {
     position: relative;
     top: 0;
     left: auto;
 }
 
-.mid p{
+.adventure p{
     position: relative;
     top: 0;
     left: auto;
     font-family: var(--heading-font);
-    color: var(--primary-color);
-
-    
+    color: var(--primary-color);  
 }
 
-.mid article {
-    position: relative;
-    top:auto;
-    left: auto;
+.adventure article {
     background-color: #008489;
     padding: 20px;
 }
 
-.mid article img {
-    float: none;
-    width: 600px;
+.adventure article img {
+    width: 200px;
+    height: auto;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Adventure */
+
+.adventure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adventure figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.adventure img {
+    width: 20%;
     height: auto;
 }
+
+.adventure figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+
 
 /* Footer*/ 
 
@@ -178,13 +204,17 @@ footer {
     position: relative;
     top: 0px;
     left: auto;
+    display: flex;
+    justify-content: flex-end;
     max-width: 1920px;
     background-color: #008489;
     padding: 20px;
 }
 
-a img {
-    left: auto;
-    width: 100px;
-    position: relative;
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
+
+
