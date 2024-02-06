@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/poll-form.css">
         <title>WDD 130 | HTML Form 0 - User Poll</title>
     </head>
     <body>
@@ -14,10 +15,18 @@
                 <fieldset>
                     <legend>Contact Information</legend>
                     <!-- Form elements will go here-->
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname">
-                    <label for="email">Email:</label>
-                    <input type="email" id="useremail" name="useremail">
+                    <div class="form-item">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column1">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="email">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
