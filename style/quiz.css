@@ -1,0 +1,114 @@
+* {
+    font-family: sans-serif, times, georgia;
+    font-size: 1.0em;
+    color: #333;
+    background-color: #eee;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 0.5em;
+    color: navy;
+    text-align: center;
+}
+
+h2 { 
+    font-size: 20px;
+    color: navy;
+    text-align: left;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-custom {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.checkbox-label {
+    margin-left: 10px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #fff;
+    display: grid;
+    align-items: flex-start;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+label span.question-number{
+    padding: 0.2rem;
+    color: navy;
+    font-size: 20px;
+    display:left;
+}
+
+label, input, button, select, textarea {
+    font-family: arial, sans-serif, times;
+}
+
+label {
+    text-align: flex;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+
+
+    margin: 10px 5px 15px;
+
+
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
