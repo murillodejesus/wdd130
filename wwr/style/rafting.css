@@ -336,7 +336,7 @@ label span.question-number{
     padding: 0.2rem;
     color: #fff;
     font-size: 20px;
-    display:left;
+    display: grid;
 }
 
 label, input, button, select, textarea {
@@ -345,7 +345,7 @@ label, input, button, select, textarea {
 }
 
 label {
-    text-align: flex;
+    text-align: center;
     padding-right: 1rem;
 }
 
