@@ -18,12 +18,24 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     padding: 0px;
+    background-color: #64AFB4;
 }
 
 img {
     max-width: 100%;
     height: auto;
     position: relative;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #fff;
+    display: grid;
+    align-items: flex-start;
 }
 
 /* texts */
@@ -53,13 +65,14 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
     
 
 nav a{ 
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 0 20px;
+    padding: 18px 89px;
 }
 
 nav a:link, nav a:visited {
@@ -69,6 +82,10 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.grid {
+    align-items: center;
 }
 
 /* Hero Container */
@@ -176,12 +193,14 @@ figcaption {
     position: relative;
     top: 0;
     left: auto;
+    color: #fff;
 }
 
 .adventure h2 {
     position: relative;
     top: 0;
     left: auto;
+    color: #fff;
 }
 
 .adventure p{
@@ -189,12 +208,19 @@ figcaption {
     top: 0;
     left: auto;
     font-family: var(--heading-font);
-    color: var(--primary-color);  
+    color: #fff;  
 }
 
 .adventure article {
     background-color: #008489;
     padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    display: grid;
+    align-items: flex-start;
 }
 
 .adventure article img {
@@ -227,8 +253,10 @@ figcaption {
     margin-top: 5px;
 }
 
+.adventure map {
+    align-items: center;
 
-
+}
 /* Footer*/ 
 
 footer p {
@@ -255,4 +283,88 @@ footer img {
     margin-left: 10px;
 }
 
+
+/* Contact Us */
+
+header {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-custom {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.checkbox-label {
+    margin-left: 10px;
+}
+
+form {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    background-color: #E57E28;
+    display: grid;
+    align-items: flex-start;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #64AFB4;
+}
+
+label span.question-number{
+    padding: 0.2rem;
+    color: #fff;
+    font-size: 20px;
+    display:left;
+}
+
+label, input, button, select, textarea {
+    font-family: arial, sans-serif, times;
+    color:#fff;
+}
+
+label {
+    text-align: flex;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: #008489;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #E57E28;
+}
 
