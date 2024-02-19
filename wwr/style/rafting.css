@@ -28,7 +28,7 @@ img {
 }
 
 main {
-    width: 1200px;
+    width: 1250px;
     margin: 0 auto;
     padding: 1rem;
     border:1px solid rgba(0, 0, 0, 0.1);
@@ -133,11 +133,10 @@ nav a:hover {
 
 /* History */
 
-.history img { 
-    display: inline-block;
-    margin: 10px;
-    justify-content: center;
-
+.history figure img { 
+    max-width: 150px;
+    max-height: 220px;
+    left: 35px;
 }
 
 .history p {
@@ -215,7 +214,7 @@ figcaption {
 .adventure article {
     background-color: #008489;
     padding: 20px;
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
     padding: 1rem;
     border:1px solid rgba(0, 0, 0, 0.1);
@@ -308,8 +307,10 @@ header {
     margin-left: 10px;
 }
 
+/* form configuration */
+
 form {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
     padding: 1rem;
     border:1px solid rgba(0, 0, 0, 0.1);
