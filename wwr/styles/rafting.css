@@ -1,9 +1,9 @@
 /* Documento raiz com variáveis CSS */
 :root {
-    --primary-color: #2c3e50; /* verde-floresta */
-    --secondary-color: #f4a261; /* areia-quente */
-    --accent1-color: #264653; /* azul-ardósia-escuro */
-    --accent2-color: #e9c46a; /* amarelo-dourado-claro */
+    --primary-color: #2c3e50; 
+    --secondary-color: #f4a261; 
+    --accent1-color: #264653; 
+    --accent2-color: #e9c46a; 
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
