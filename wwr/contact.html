@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Whitewater Rafting Company - Kolob</title>
+    <meta name="description" content="Contact the Whitewater Rafting Company in Kolob, California for reservations, general inquiries, or website suggestions.">
+    <meta name="author" content="Murillo de Jesus">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo_rafting.png" alt="Rafting Site Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-grid">
+        <section class="company-info">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <section class="map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10459.186638063738!2d-113.1234567!3d37.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDA3JzI0LjUiTiAxMTPCsDA3JzI0LjUiVw!5e0!3m2!1sen!2sus!4v1687445378000!5m2!1sen!2sus" 
+                width="100%" 
+                height="450" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+        
+        <section class="contact-form-section">
+            <h2>Get In Touch!</h2>
+            <form class="contact-form">
+                
+                <div class="form-item">
+                    <label for="user-name">Name</label>
+                    <input type="text" id="user-name" name="user-name" placeholder="Placeholder" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="user-email">Email</label>
+                    <input type="email" id="user-email" name="user-email" placeholder="Placeholder" required>
+                </div>
+                
+                <fieldset class="message-purpose">
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" id="inquiry" name="purpose" value="general-inquiry" required> General Inquiry</label>
+                    <label><input type="radio" id="reservation" name="purpose" value="reservation-question"> Reservation Question</label>
+                    <label><input type="radio" id="website" name="purpose" value="website-suggestion"> Website Suggestion</label>
+                </fieldset>
+
+                <div class="form-item full-width">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type here"></textarea>
+                </div>
+                
+                <div class="form-item checkbox-item">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employee-profiles full-width">
+            <h2>We Are Here to Serve You</h2>
+            <div class="profile-cards">
+                <figure>
+                    <img src="images/happy-client.jpg" alt="Profile of employee Alice">
+                    <figcaption>Alice - Reservation Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy-client.jpg" alt="Profile of employee Bob">
+                    <figcaption>Bob - Lead River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy-client.jpg" alt="Profile of employee Charlie">
+                    <figcaption>Charlie - Operations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Whitewater Rafting | Murillo de Jesus</p>
+        <div class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
