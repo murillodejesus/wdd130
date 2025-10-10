@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #f4f4f9;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1.5rem 0 1rem 0;
+    font-size: 2em;
+    color: navy;
+    text-align: center;
+    border-bottom: 2px solid navy;
+    padding-bottom: 0.5rem;
+}
+
+form {
+    width: 650px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 1rem;
+    background-color: #fff;
+    display: grid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem 0;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+legend {
+    padding: 0.5rem 1rem;
+    color: navy;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    font-weight: 700;
+    color: #555;
+}
+
+input, select, textarea {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    margin-top: 0.5rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center; 
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr; 
+    margin: 0.5rem 0;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr; 
+    margin: 0.5rem 0;
+}
+
+button {
+    margin: 1.5rem 0 0.5rem 0;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    justify-self: center; /* Center the button within the form grid */
+    width: 50%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+footer {
+    margin: 1rem auto 2rem;
+    width: 650px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDN Table Exercise Solution</title>
+    <link href="table-exercise.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Table Exercise Solution</h1>
+    
+    <table>
+        <caption>Information about company employees</caption>
+        <thead>
+            <tr>
+                <th scope="col">Department</th>
+                <th scope="col">Person</th>
+                <th scope="col">Most interest in</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Accounting</th>
+                <th scope="row">Chris</th>
+                <td>HTML tables</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th scope="row">Denise</th>
+                <td>CSS styling</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <th scope="row">Boris</th>
+                <td>JS logic</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <th scope="row">Diana</th>
+                <td>Database management</td>
+                <td>42</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="3">Average age</th>
+                <td>33</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
